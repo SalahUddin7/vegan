@@ -19,25 +19,31 @@ const Dessertproductsingle = () => {
   }, []);
 
   return (
-    <div style={{ textAlign: 'center' }}>
-      <h2>Product Details</h2>
+    <div className="individual-item-display">
+      <h2>Item Details</h2>
+
       {product !== null && (
         <div>
           <p>
             <img src={product.image} style={{ width: 'auto' }} alt="" />
           </p>
           <h3>{product.title}</h3>
-          <h3>{product.price} BDT</h3>
-          <div>Vitamin {product.vitamin}</div>
-          <div>FAAAat{product.fat}</div>
-          <div>Salt{product.salt}</div>
+
+          <h4>Ingredients: {product.ingredients}</h4>
+
+          {/* Nutrition */}
           {product.nutritionFacts.map((nutrition) => (
             <div className="NutritionFacts">
               <p>{nutrition.label}</p>
 
-              <p>{nutrition.value}</p>
+              <p>{nutrition.value}%</p>
             </div>
           ))}
+          <p>
+            The % Daily Value tells you how much a nutrient in a serving food
+            contributes to a daily die. 2000 calories a day is used for general
+            nutrition advice.
+          </p>
         </div>
       )}
     </div>
