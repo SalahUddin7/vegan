@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div>
-      <h2>This is Home</h2>
+      <h2>This is Home Page b</h2>
 
       <h2>
         This is Dish Product
-        <button> View Dish</button>
-        <Link to="/products">DishProduct</Link>
+        <button>
+          {' '}
+          <Link to="/products">View Main Dish Product</Link>
+        </button>
       </h2>
 
       <h2>
