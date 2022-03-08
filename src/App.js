@@ -1,9 +1,9 @@
 import React from 'react';
-// import './assets/style.css';
+import './assets/style.css';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
-// import Dessertproduct from './components/dessert/Dessertproduct';
-// import Dessertproductsingle from './components/dessert/Dessertproductsingle';
+import Dessertproduct from './components/dessert/Dessertproduct';
+import Dessertproductsingle from './components/dessert/Dessertproductsingle';
 import Product from './components/products/Product';
 import ProductSingle from './components/products/ProductSingle';
 
@@ -18,9 +18,9 @@ export default function App() {
           <li>
             <Link to="/products">DishProduct</Link>
           </li>
-          {/* <li>
+          <li>
             <Link to="/DessertProduct">Dessert Items</Link>
-          </li> */}
+          </li>
           <li>
             <Link to="/404">404</Link>
           </li>
@@ -28,11 +28,11 @@ export default function App() {
       </div>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        {/* <Route path="/Dessertproduct" element={<Dessertproduct />}></Route> */}
-        {/* <Route
+        <Route path="/Dessertproduct" element={<Dessertproduct />}></Route>
+        <Route
           path="/Dessertproduct/:id"
           element={<Dessertproductsingle />}
-        ></Route> */}
+        ></Route>
         <Route path="/products" element={<Product />}></Route>
         <Route path="/products/:id" element={<ProductSingle />}></Route>
       </Routes>
