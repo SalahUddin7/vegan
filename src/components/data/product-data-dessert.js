@@ -9,6 +9,54 @@ export const getProductDataDessert = () => {
       vitamin: ' Desert 11%',
       fat: 11,
       salt: 11,
+
+      nutritionFacts: [
+        {
+          id: 1,
+          label: 'calories',
+          value: 500,
+        },
+        {
+          id: 2,
+          label: 'total fat',
+          value: 8,
+        },
+        {
+          id: 3,
+          label: 'saturated fat',
+          value: 2,
+        },
+        {
+          id: 4,
+          label: 'cholesterol',
+          value: 8,
+        },
+        {
+          id: 5,
+          label: 'sodium',
+          value: 5,
+        },
+        {
+          id: 6,
+          label: 'total carbohydrates',
+          value: 2,
+        },
+        {
+          id: 7,
+          label: 'fiber',
+          value: 6,
+        },
+        {
+          id: 8,
+          label: 'sugar',
+          value: 10,
+        },
+        {
+          id: 9,
+          label: 'protein',
+          value: 40,
+        },
+      ],
     },
     {
       id: 2,

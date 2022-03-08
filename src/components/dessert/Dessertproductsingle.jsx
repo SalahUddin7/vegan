@@ -29,8 +29,15 @@ const Dessertproductsingle = () => {
           <h3>{product.title}</h3>
           <h3>{product.price} BDT</h3>
           <div>Vitamin {product.vitamin}</div>
-          <div>Fat{product.fat}</div>
+          <div>FAAAat{product.fat}</div>
           <div>Salt{product.salt}</div>
+          {product.nutritionFacts.map((nutrition) => (
+            <div className="NutritionFacts">
+              <p>{nutrition.label}</p>
+              <p></p>
+              <p>{nutrition.value}</p>
+            </div>
+          ))}
         </div>
       )}
     </div>
