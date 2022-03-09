@@ -26,9 +26,6 @@ const ProductSingle = () => {
           </p>
           <h3>{product.title}</h3>
           <h3>{product.price} BDT</h3>
-          <div>Vitamin {product.vitamin}</div>
-          <div>Fat{product.fat}</div>
-          <div>Salt{product.salt}</div>
         </div>
       )}
     </div>

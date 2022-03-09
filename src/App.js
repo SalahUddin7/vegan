@@ -4,6 +4,9 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
 import Dessertproduct from './components/dessert/Dessertproduct';
 import Dessertproductsingle from './components/dessert/Dessertproductsingle';
+import Drinksproduct from './components/drinks/Drinksproduct';
+import Drinksproductsingle from './components/drinks/Drinksproductsingle';
+
 import Product from './components/products/Product';
 import ProductSingle from './components/products/ProductSingle';
 
@@ -16,13 +19,13 @@ export default function App() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/products">DishProduct</Link>
+            <Link to="/products">Dish</Link>
           </li>
           <li>
-            <Link to="/DessertProduct">Dessert Items</Link>
+            <Link to="/Dessertproduct">Dessert </Link>
           </li>
           <li>
-            <Link to="/404">404</Link>
+            <Link to="/Drinksproduct">Drinks</Link>
           </li>
         </ul>
       </div>
@@ -33,6 +36,13 @@ export default function App() {
           path="/Dessertproduct/:id"
           element={<Dessertproductsingle />}
         ></Route>
+
+        <Route path="/Drinksproduct" element={<Drinksproduct />}></Route>
+        <Route
+          path="/Drinksproduct/:id"
+          element={<Drinksproductsingle />}
+        ></Route>
+
         <Route path="/products" element={<Product />}></Route>
         <Route path="/products/:id" element={<ProductSingle />}></Route>
       </Routes>
