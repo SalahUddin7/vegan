@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div>
-      <h2>This is Home Page b</h2>
+      <h2>This is Home Page c</h2>
 
       <h2>
         This is Dish Product
