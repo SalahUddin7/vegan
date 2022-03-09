@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { getProductDataDrinks } from '../data/product-data-drinks';
+import { getProductDataDrinks } from '../../data/product-data-drinks';
 
 const Drinksproduct = () => {
   const [products, setProducts] = useState(getProductDataDrinks);

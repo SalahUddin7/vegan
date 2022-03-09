@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
-import { getProductData } from '../data/product-data';
+import { getProductData } from '../../data/product-data';
 
 const ProductSingle = () => {
   const Para = useParams();
