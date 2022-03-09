@@ -3,21 +3,26 @@ import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
-    <div>
-      <ul className="navbar">
-        <li>
-          <Link to="/">Home</Link>
-        </li>
+    <nav>
+      <ul>
         <li>
           <Link to="/products">Dish</Link>
         </li>
         <li>
           <Link to="/Dessertproduct">Dessert </Link>
         </li>
+
+        <li>
+          <Link to="/">L-O-G-O</Link>
+        </li>
         <li>
           <Link to="/Drinksproduct">Drinks</Link>
         </li>
+
+        <li>
+          <Link to="/">Contact</Link>
+        </li>
       </ul>
-    </div>
+    </nav>
   );
 }
