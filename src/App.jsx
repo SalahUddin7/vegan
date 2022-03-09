@@ -1,6 +1,6 @@
 import React from 'react';
 import './assets/style.css';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Dessertproduct from './components/dessert/Dessertproduct';
 import Dessertproductsingle from './components/dessert/Dessertproductsingle';
@@ -9,26 +9,12 @@ import Drinksproductsingle from './components/drinks/Drinksproductsingle';
 
 import Product from './components/products/Product';
 import ProductSingle from './components/products/ProductSingle';
+import Navbar from './components/navbar/NavBar';
 
 export default function App() {
   return (
     <BrowserRouter>
-      <div>
-        <ul className="navbar">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/products">Dish</Link>
-          </li>
-          <li>
-            <Link to="/Dessertproduct">Dessert </Link>
-          </li>
-          <li>
-            <Link to="/Drinksproduct">Drinks</Link>
-          </li>
-        </ul>
-      </div>
+      <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
