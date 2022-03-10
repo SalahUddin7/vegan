@@ -9,7 +9,7 @@ const ProductSingle = () => {
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    const filtered = getProductData().filter((prod) => prod.id == Para.id);
+    const filtered = getProductData().filter((prod) => prod.id === Para.id);
     console.log(filtered);
     if (filtered.length) {
       setProduct(filtered[0]);

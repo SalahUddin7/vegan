@@ -1,20 +1,20 @@
 .flex-containerA {
   display: flex;
-  flex-direction: row;
 }
 
 .flex-containerA .flex-item-left {
-  flex: 50%;
+  flex-basis: 50%;
 }
 
 .flex-containerA .flex-item-left img {
   width: 100%;
   height: auto;
   min-height: 300px;
+  object-fit: cover;
 }
 
 .flex-containerA .flex-item-right {
-  flex: 50%;
+  flex-basis: 50%;
 }
 
 /* Flex-Container B */
@@ -30,6 +30,7 @@
   align-items: center;
   justify-content: center;
 
+  /* box-sizing: border-box; */
   /* padding: 20px; */
   gap: 20px;
 }

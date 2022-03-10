@@ -7,6 +7,9 @@ nav {
 }
 
 nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   list-style: none;
   padding: 0;
   text-align: center;

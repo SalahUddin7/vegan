@@ -17,7 +17,6 @@ export const getProductData = () => {
       image: 'https://i.ibb.co/9Ncwc66/Dish2-Salad-two.jpg',
       vitamin: 'Vitamin 12%',
       fat: 12,
-      price: 12,
     },
     {
       id: 3,
@@ -26,7 +25,6 @@ export const getProductData = () => {
       image: 'https://i.ibb.co/TkwpJ8m/Dish3-Salad-three.jpg',
       vitamin: 'Vitamin 13%',
       fat: 13,
-      price: 13,
     },
     {
       id: 4,

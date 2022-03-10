@@ -1,3 +1,9 @@
 export default function Contact() {
-  return <div className="contact-page"> This is Contact Page</div>;
+  return (
+    <div className="contact-page">
+      <div>Opening Hours</div>
+
+      <div>Contact Details</div>
+    </div>
+  );
 }
