@@ -9,7 +9,7 @@ export default function Footer() {
             rel="noreferrer"
             href="https://www.linkedin.com/in/salahsweden/"
           >
-            <img src="./Footer-images/Github.png" alt="" />
+            <img src="./Footer-images/Linkedin.jpg" alt="" />
           </a>
         </li>
         <li>

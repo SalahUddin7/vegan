@@ -6,7 +6,10 @@ const Home = () => {
   return (
     <div>
       <HeroSection />
-
+      {/* The home page will have a hero with a nice picture with the name of the
+      restaurant and a slogan in the middle. It also will quickly describe (a
+      description) what makes its dishes unique, same with the deserts and
+      drinks. */}
       <div className="HomePage">
         {/* CONTAINER A: MAIN DISH */}
         <section className="flex-containerA">
