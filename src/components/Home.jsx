@@ -8,29 +8,41 @@ const Home = () => {
       <HeroSection />
 
       <div className="HomePage">
-        <div className="flex-containerA">
+        {/* CONTAINER A: MAIN DISH */}
+        <section className="flex-containerA">
           <div className="flex-item-left">
-            <img src="veganhero.jpg" alt="" />
+            <img src="Homepage-images/main-dish.jpg" alt="" />
           </div>
           <div className="flex-item-right">
             Text A dolor nesciunt porro, autem omnis! Text A dolor nesciunt
             porro, autem omnis! Text A dolor nesciunt porro, autem omnis!
           </div>
-        </div>
+        </section>
 
-        <div className="flex-containerB">
-          <dir>Text B</dir>
-          <div>
-            <img src="veganhero.jpg" alt="" />
+        {/* CONTAINER B: MAIN DESSERTS */}
+        <section className="flex-containerA">
+          <div className="flex-item-right">
+            Text B: Text A dolor nesciunt porro, autem omnis! Text A dolor
+            nesciunt porro, autem omnis! Text A dolor nesciunt porro, autem
+            omnis!
           </div>
-        </div>
+          <div className="flex-item-left">
+            <img src="Homepage-images/main-desserts.jpg" alt="" />
+          </div>
+        </section>
 
-        <div className="flex-containerA">
-          <div>
-            <img src="veganhero.jpg" alt="" />
+        {/* CONTAINER C: MAIN DRINKS */}
+        <section className="flex-containerA">
+          <div className="flex-item-left">
+            <img src="Homepage-images/main-drinks.jpg" alt="" />
           </div>
-          <dir>Text C</dir>
-        </div>
+          <div className="flex-item-right">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Exercitationem cum dolorem ratione, ipsam architecto qui iste facere
+            aspernatur doloremque modi dolore atque, est dolorum nemo nostrum
+            quaerat sapiente laudantium consequuntur!
+          </div>
+        </section>
       </div>
       <div>
         <h2>This is Home Page e</h2>
