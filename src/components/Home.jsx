@@ -16,7 +16,7 @@ const Home = () => {
           <div className="flex-item-right main-page--section-text">
             <div>
               {' '}
-              Text A dolor nesciunt porro, autem omnis! Text A dolor nesciunt
+              Text AAA dolor nesciunt porro, autem omnis! Text A dolor nesciunt
               porro, autem omnis! Text A dolor nesciunt porro, autem omnis!
             </div>
             <div>

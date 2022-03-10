@@ -10,6 +10,8 @@ import Drinksproductsingle from './components/drinks/Drinksproductsingle';
 import Product from './components/products/Product';
 import ProductSingle from './components/products/ProductSingle';
 import Navbar from './components/navbar/NavBar';
+import Footer from './components/Footer';
+import Contact from './components/contact/Contact';
 
 export default function App() {
   return (
@@ -17,6 +19,9 @@ export default function App() {
       <Navbar />
 
       <Routes>
+        <Route path="/products" element={<Product />}></Route>
+        <Route path="/products/:id" element={<ProductSingle />}></Route>
+
         <Route path="/" element={<Home />}></Route>
         <Route path="/Dessertproduct" element={<Dessertproduct />}></Route>
         <Route
@@ -30,9 +35,9 @@ export default function App() {
           element={<Drinksproductsingle />}
         ></Route>
 
-        <Route path="/products" element={<Product />}></Route>
-        <Route path="/products/:id" element={<ProductSingle />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

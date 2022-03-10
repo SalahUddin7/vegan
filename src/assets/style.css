@@ -1,6 +1,8 @@
 @import '../css/NavBar.css';
 @import '../css/HeroSection.css';
-@import '../css/Home.css'; /* Test */
+@import '../css/Home.css';
+@import '../css/Footer.css';
+@import '../css/Contact.css'; /* Test */
 body {
   margin: 0;
   font-family: 'Roboto', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell',
