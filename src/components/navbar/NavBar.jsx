@@ -13,7 +13,9 @@ export default function NavBar() {
         </li>
 
         <li>
-          <Link to="/">L-O-G-O</Link>
+          <Link to="/">
+            <img className="logo-img" src="navlogo.jpg" />
+          </Link>
         </li>
         <li>
           <Link to="/Drinksproduct">Drinks</Link>

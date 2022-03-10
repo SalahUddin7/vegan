@@ -3,33 +3,32 @@
 }
 
 .HomePage img {
-  max-width: 500px;
-}
-
-.flex-containerA {
-  box-sizing: border-box;
-
-  background-color: red;
-
-  max-width: 400px;
-  margin: 0 auto;
+  /* max-width: 500px; */
 }
 
 .flex-containerA {
   display: flex;
-
-  font-size: 30px;
-  text-align: center;
+  flex-direction: row;
 }
 
 .flex-containerA .flex-item-left {
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1;
   padding: 10px;
+  flex: 50%;
+*/
   flex: 50%;
 }
 
+.flex-containerA .flex-item-left img {
+  width: 100%;
+  height: auto;
+  /* min-height: 200px;
+  min-width: 350px; */
+}
+
 .flex-containerA .flex-item-right {
-  background-color: dodgerblue;
-  padding: 10px;
+  /* background-color: dodgerblue; */
+  /* padding: 10px;
+  flex: 50%; */
   flex: 50%;
 }

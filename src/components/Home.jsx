@@ -13,9 +13,8 @@ const Home = () => {
             <img src="veganhero.jpg" alt="" />
           </div>
           <div className="flex-item-right">
-            Text A Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Libero illo, fugit eos blanditiis et doloribus deleniti rerum nam
-            qui vero ipsum consequuntur ut dolor nesciunt porro, autem omnis!
+            Text A dolor nesciunt porro, autem omnis! Text A dolor nesciunt
+            porro, autem omnis! Text A dolor nesciunt porro, autem omnis!
           </div>
         </div>
 
