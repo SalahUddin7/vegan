@@ -7,7 +7,12 @@ const Product = () => {
 
   return (
     <div className="product-area-full">
-      <h2>All PRODUCTS </h2> <br />
+      <h2> Dish </h2> <br />
+      <p>
+        Cocktails use fun, natural ingredients like maple, beets and watermelon
+        to add color and flavor and are completely free of animal ingredients
+        like milk, eggs and honey that are sometimes found in cocktails
+      </p>
       {/* <Link to="/Products/12">Product-XYZ</Link> */}
       {/* map((element, indexes) =>  */}
       <div className="product-area">

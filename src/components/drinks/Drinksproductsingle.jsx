@@ -10,7 +10,7 @@ const Drinksproductsingle = () => {
 
   useEffect(() => {
     const filtered = getProductDataDrinks().filter(
-      (prod) => prod.id == Para.id
+      (prod) => prod.id === Para.id
     );
     console.log(filtered);
     if (filtered.length) {

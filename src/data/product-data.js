@@ -2,35 +2,226 @@ export const getProductData = () => {
   return [
     {
       id: 1,
-      title: 'Dish: Salad A. ',
-      description: 'this is made in heaven',
-      image: 'https://i.ibb.co/thSJfX5/Dish1-Salad.jpg',
+      title: 'Drinks Berry sorbet',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur tellus et sapien accumsan.',
+      image: 'https://i.ibb.co/r6kz8t2/banana.jpg',
 
-      vitamin: ' 11%',
-      fat: 11,
-      salt: 11,
+      ingredients: 'broccoli, tofu, kombu, rice, miso',
+      nutritionFacts: [
+        {
+          id: 1,
+          label: 'calories',
+          value: 500,
+        },
+        {
+          id: 2,
+          label: 'total fat',
+          value: 8,
+        },
+        {
+          id: 3,
+          label: 'saturated fat',
+          value: 2,
+        },
+        {
+          id: 4,
+          label: 'cholesterol',
+          value: 8,
+        },
+        {
+          id: 5,
+          label: 'sodium',
+          value: 5,
+        },
+        {
+          id: 6,
+          label: 'total carbohydrates',
+          value: 2,
+        },
+        {
+          id: 7,
+          label: 'fiber',
+          value: 6,
+        },
+        {
+          id: 8,
+          label: 'sugar',
+          value: 10,
+        },
+        {
+          id: 9,
+          label: 'protein',
+          value: 40,
+        },
+      ],
     },
     {
       id: 2,
-      title: 'Salad B',
-      price: 1000,
-      image: 'https://i.ibb.co/9Ncwc66/Dish2-Salad-two.jpg',
-      vitamin: 'Vitamin 12%',
-      fat: 12,
+      title: 'Drinks Tasty Cinnamon',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur tellus et sapien accumsan.',
+      image: 'https://i.ibb.co/xXgtFk0/cinamon.jpg',
+
+      ingredients: 'broccoli, tofu, kombu, rice, miso',
+      nutritionFacts: [
+        {
+          id: 1,
+          label: 'calories',
+          value: 500,
+        },
+        {
+          id: 2,
+          label: 'total fat',
+          value: 8,
+        },
+        {
+          id: 3,
+          label: 'saturated fat',
+          value: 2,
+        },
+        {
+          id: 4,
+          label: 'cholesterol',
+          value: 8,
+        },
+        {
+          id: 5,
+          label: 'sodium',
+          value: 5,
+        },
+        {
+          id: 6,
+          label: 'total carbohydrates',
+          value: 2,
+        },
+        {
+          id: 7,
+          label: 'fiber',
+          value: 6,
+        },
+        {
+          id: 8,
+          label: 'sugar',
+          value: 10,
+        },
+        {
+          id: 9,
+          label: 'protein',
+          value: 40,
+        },
+      ],
     },
     {
       id: 3,
-      title: 'Salad C',
-      price: 280,
-      image: 'https://i.ibb.co/TkwpJ8m/Dish3-Salad-three.jpg',
-      vitamin: 'Vitamin 13%',
-      fat: 13,
+      title: 'Tropical Banana',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur tellus et sapien accumsan.',
+      image: 'https://i.ibb.co/RyWrTf8/banana.jpg',
+
+      ingredients: 'broccoli, tofu, kombu, rice, miso',
+      nutritionFacts: [
+        {
+          id: 1,
+          label: 'calories',
+          value: 500,
+        },
+        {
+          id: 2,
+          label: 'total fat',
+          value: 8,
+        },
+        {
+          id: 3,
+          label: 'saturated fat',
+          value: 2,
+        },
+        {
+          id: 4,
+          label: 'cholesterol',
+          value: 8,
+        },
+        {
+          id: 5,
+          label: 'sodium',
+          value: 5,
+        },
+        {
+          id: 6,
+          label: 'total carbohydrates',
+          value: 2,
+        },
+        {
+          id: 7,
+          label: 'fiber',
+          value: 6,
+        },
+        {
+          id: 8,
+          label: 'sugar',
+          value: 10,
+        },
+        {
+          id: 9,
+          label: 'protein',
+          value: 40,
+        },
+      ],
     },
     {
       id: 4,
-      title: 'Salad D',
-      price: 120000,
-      image: 'https://i.ibb.co/0s2x7yh/Dish4-Salad-four.jpg',
+      title: 'Mojito Melona',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur tellus et sapien accumsan.',
+      image: 'https://i.ibb.co/D49d2X7/melon.jpg',
+      ingredients: 'broccoli, tofu, kombu, rice, miso',
+      nutritionFacts: [
+        {
+          id: 1,
+          label: 'calories',
+          value: 500,
+        },
+        {
+          id: 2,
+          label: 'total fat',
+          value: 8,
+        },
+        {
+          id: 3,
+          label: 'saturated fat',
+          value: 2,
+        },
+        {
+          id: 4,
+          label: 'cholesterol',
+          value: 8,
+        },
+        {
+          id: 5,
+          label: 'sodium',
+          value: 5,
+        },
+        {
+          id: 6,
+          label: 'total carbohydrates',
+          value: 2,
+        },
+        {
+          id: 7,
+          label: 'fiber',
+          value: 6,
+        },
+        {
+          id: 8,
+          label: 'sugar',
+          value: 10,
+        },
+        {
+          id: 9,
+          label: 'protein',
+          value: 40,
+        },
+      ],
     },
   ];
 };
