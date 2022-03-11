@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "dishes",
+      "description": "Our dishes are are one of the best meals",
+      "imageURL": "https://i.ibb.co/DRz7qcg/Vegan-Dish-Picture-A.png"
+    },
+    {
+      "id": 2,
+      "name": "desserts",
+      "description": " Our desserts are homemade with products from small local producers. We aim to reduce sugar as much as possible. Click and discover.",
+      "imageURL": "https://i.ibb.co/DRz7qcg/Vegan-Dish-Picture-A.png"
+    },
+    {
+      "id": 3,
+      "name": "drinks",
+      "description": "Or drinks are one of the best",
+      "imageURL": "https://i.ibb.co/DRz7qcg/Vegan-Dish-Picture-A.png"
+    }
+  ]
+  
