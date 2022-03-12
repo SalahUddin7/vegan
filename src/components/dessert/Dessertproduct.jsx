@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import allFoodItems from '../../data/2-allFoodItems.json';
+import allFoodItems from '../../data/allFoodItems.json';
 
 const Dessertproduct = () => {
   const filterDessert = allFoodItems.filter((product) => {
@@ -22,7 +22,7 @@ const Dessertproduct = () => {
           <div key={index} className="product-single">
             <p>
               <img
-                src={mainproduct.image}
+                src={mainproduct.imageURL}
                 style={{ width: 'auto', height: 100 }}
                 alt=""
               />

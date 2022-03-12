@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
-import allFoodItems from '../../data/2-allFoodItems.json';
+import allFoodItems from '../../data/allFoodItems.json';
 
 const Dessertproductsingle = () => {
   const Para = useParams();

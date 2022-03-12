@@ -1,34 +1,36 @@
-import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import allFoodItems from '../../data/2-allFoodItems.json';
+import allFoodItems from '../../data/allFoodItems.json';
 
 const Product = () => {
-  const [products, setProducts] = useState(allFoodItems);
+  const filterDishes = allFoodItems.filter((product) => {
+    return product.category === 'dishes';
+  });
 
   return (
     <div className="product-area-full">
-      <h2> Dish </h2> <br />
+      <h2>Dishes </h2>
       <p>
         Cocktails use fun, natural ingredients like maple, beets and watermelon
         to add color and flavor and are completely free of animal ingredients
         like milk, eggs and honey that are sometimes found in cocktails
       </p>
+      <hr />
       {/* <Link to="/Products/12">Product-XYZ</Link> */}
       {/* map((element, indexes) =>  */}
       <div className="product-area">
-        {products.map((mainproduct, index) => (
+        {filterDishes.map((mainproduct, index) => (
           <div key={index} className="product-single">
             <p>
               <img
-                src={mainproduct.image}
+                src={mainproduct.imageURL}
                 style={{ width: 'auto', height: 100 }}
                 alt=""
               />
             </p>
             <h3>{mainproduct.title}</h3>
-            <h3>{mainproduct.description}</h3>
+            <p>{mainproduct.description}</p>
+
             <p className="product-button">
-              {/* 1. THIS I need to understand*/}
               <Link to={`/products/${mainproduct.id}`}>
                 View {mainproduct.title}
               </Link>
