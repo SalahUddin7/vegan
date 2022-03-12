@@ -1,27 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import HeroSection from './HeroSection';
+import DishCatagory from '../assets/Homepage-Images/DishCatagory.jpg';
+import DessertCatagory from '../assets/Homepage-Images/DessertCatagory.jpg';
+import DrinksCatagory from '../assets/Homepage-Images/DrinksCatagory.jpg';
 
 const Home = () => {
   return (
     <div>
       <HeroSection />
-      {/* The home page will have a hero with a nice picture with the name of the
-      restaurant and a slogan in the middle. It also will quickly describe (a
-      description) what makes its dishes unique, same with the deserts and
-      drinks. */}
+
       <div className="HomePage">
         {/* CONTAINER A: MAIN DISH */}
         <section className="flex-containerA">
           <div className="flex-item-left">
-            <img src="Homepage-images/main-dish.jpg" alt="" />
+            <img src={DishCatagory} alt="" />
           </div>
           <div className="flex-item-right main-page--section-text">
-            <div>
-              {' '}
-              Text AAA dolor nesciunt porro, autem omnis! Text A dolor nesciunt
-              porro, autem omnis! Text A dolor nesciunt porro, autem omnis!
-            </div>
+            <div>Best Vegan dishesh in Stockhom cooked in homemade style.</div>
+
             <div>
               {' '}
               <button className="btn">
@@ -34,30 +31,25 @@ const Home = () => {
         {/* CONTAINER B: MAIN DESSERTS */}
         <section className="flex-containerA">
           <div className="flex-item-right main-page--section-text">
-            Text B: Text A dolor nesciunt porro, autem omnis! Text A dolor
-            nesciunt porro, autem omnis! Text A dolor nesciunt porro, autem
-            omnis!
-            <button>
+            Dessert once you eat -you will remember rest of your life
+            <button className="btn">
               <Link to="/DessertProduct"> View Dessert Items</Link>
             </button>
           </div>
           <div className="flex-item-left">
-            <img src="Homepage-images/main-desserts.jpg" alt="" />
+            <img src={DessertCatagory} alt="" />
           </div>
         </section>
 
         {/* CONTAINER C: MAIN DRINKS */}
         <section className="flex-containerA">
           <div className="flex-item-left">
-            <img src="Homepage-images/main-drinks.jpg" alt="" />
+            <img src={DrinksCatagory} alt="" />
           </div>
           <div className="flex-item-right main-page--section-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Exercitationem cum dolorem ratione, ipsam architecto qui iste facere
-            aspernatur doloremque modi dolore atque, est dolorum nemo nostrum
-            quaerat sapiente laudantium consequuntur!
+            Drinks which will bring peace of mind! Just enjoy!
             <div>
-              <button>
+              <button className="btn">
                 <Link to="/DrinksProduct"> View Drinks Items</Link>
               </button>
             </div>

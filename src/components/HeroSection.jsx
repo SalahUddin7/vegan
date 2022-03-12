@@ -6,7 +6,9 @@ export default function HeroSection() {
     <div className="hero-section">
       <section className="hero-image">
         <img src={HeroImage} alt=" a Broccoli" />
-        <h1 className="hero-text">REACT (this text need to be up)</h1>
+        <h1 className="hero-text"> Veganaaan Stockholm</h1>
+        <p>Best vegan restaurent in the town</p>
+        <p>* * * * * * * * * * * * * * </p>
       </section>
     </div>
   );
