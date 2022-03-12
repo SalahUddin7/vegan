@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
-import { getProductDataDrinks } from '../../data/product-data-drinks';
+import allFoodItems from '../../data/allFoodItems.json';
 
 const Drinksproductsingle = () => {
   const Para = useParams();
-  console.log(Para.id);
+
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    const filtered = getProductDataDrinks().filter(
-      (prod) => prod.id === Para.id
-    );
+    const filtered = allFoodItems.filter((prod) => {
+      return prod.id == Para.id;
+    });
     console.log(filtered);
     if (filtered.length) {
       setProduct(filtered[0]);
@@ -20,19 +20,21 @@ const Drinksproductsingle = () => {
 
   return (
     <div className="individual-item-display">
-      <h2>Item Details of Drinks</h2>
+      <h2>Item Details</h2>
 
       {product !== null && (
         <div>
           <p>
-            <img src={product.image} style={{ width: 'auto' }} alt="" />
+            <img src={product.imageURL} style={{ width: 'auto' }} alt="" />
           </p>
-          <h3>{product.title}</h3>
+          <h1>{product.title}</h1>
+          <h4>List of Ingredients:</h4>
+          {product.ingredients.map((ingred) => (
+            <p> {ingred},</p>
+          ))}
 
-          <h4>Ingredients: {product.ingredients}</h4>
-
-          {/* Nutrition */}
-          {product.nutritionFacts.map((nutrition) => (
+          <h4>Nutrition Value</h4>
+          {product.nutrition_facts.map((nutrition) => (
             <div className="NutritionFacts">
               <p>{nutrition.label}</p>
 

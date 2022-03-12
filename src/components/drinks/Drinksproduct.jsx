@@ -1,32 +1,32 @@
-import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { getProductDataDrinks } from '../../data/product-data-drinks';
+import allFoodItems from '../../data/allFoodItems.json';
 
 const Drinksproduct = () => {
-  const [products, setProducts] = useState(getProductDataDrinks);
+  const filterDrinks = allFoodItems.filter((product) => {
+    return product.category === 'drinks';
+  });
 
   return (
     <div className="product-area-full">
-      <h2>Desserts </h2>
+      <h2>Drinks </h2>
       <p>
-        Cocktails use fun, natural ingredients like maple, beets and watermelon
-        to add color and flavor and are completely free of animal ingredients
-        like milk, eggs and honey that are sometimes found in cocktails
+        Drinks use fun, natural ingredients like maple, beets and watermelon to
+        add color and flavor and are completely free of animal ingredients like
+        milk, eggs and honey that are sometimes found in cocktails
       </p>
       <hr />
-      {/* <Link to="/Products/12">Product-XYZ</Link> */}
-      {/* map((element, indexes) =>  */}
+
       <div className="product-area">
-        {products.map((mainproduct, index) => (
+        {filterDrinks.map((mainproduct, index) => (
           <div key={index} className="product-single">
             <p>
               <img
-                src={mainproduct.image}
+                src={mainproduct.imageURL}
                 style={{ width: 'auto', height: 100 }}
                 alt=""
               />
             </p>
-            <h3>{mainproduct.title}</h3>
+            <h3>Drinks: {mainproduct.title}</h3>
             <p>{mainproduct.description}</p>
             <p className="product-button">
               <Link to={`/Drinksproduct/${mainproduct.id}`}>

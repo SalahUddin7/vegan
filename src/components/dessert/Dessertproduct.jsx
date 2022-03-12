@@ -15,8 +15,7 @@ const Dessertproduct = () => {
         like milk, eggs and honey that are sometimes found in cocktails
       </p>
       <hr />
-      {/* <Link to="/Products/12">Product-XYZ</Link> */}
-      {/* map((element, indexes) =>  */}
+
       <div className="product-area">
         {filterDessert.map((mainproduct, index) => (
           <div key={index} className="product-single">
