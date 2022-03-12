@@ -1,4 +1,7 @@
 .contact-page {
-  height: 100vh;
-  margin-top: 300px;
+  margin-top: 60px;
+}
+
+.contact-owner {
+  margin: 0 auto;
 }

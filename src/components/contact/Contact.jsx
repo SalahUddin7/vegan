@@ -1,5 +1,6 @@
 import React from 'react';
-import Random from '../../assets/navlogo.jpg';
+import { ContactForm } from './ContactForm';
+import ContactImage from '../../assets/contact-images and maps/contact-image1.jpg';
 
 export default function Contact() {
   return (
@@ -10,11 +11,25 @@ the opening times, a contact form so anyone can book tables, the address,
  and a map embedded inside the page.
  */}
 
-      <div>Opening Hours</div>
+      <div className="contact-owner">
+        <img src={ContactImage} alt="restaurent owner" />
+      </div>
+      <div>
+        <h1>Opening Hours</h1>
+        <p>Monday-Friday: 8:30–21:00 </p>
+        <p>Saturday-Sunday: 14.00–21:00 </p>
+      </div>
 
-      <img src={Random} alt="" />
-      <div>Contact Detailsss</div>
-      <div>Contact Detailsss</div>
+      <ContactForm />
+
+      <div>
+        <h1>Address:</h1>
+        <p>Klastorpsvägen 4, 152 42 Södertälje </p>
+      </div>
+
+      {/* <div>
+        <img src={ContactMap} alt="restaurent owner" />
+      </div> */}
     </div>
   );
 }
