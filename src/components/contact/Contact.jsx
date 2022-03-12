@@ -1,6 +1,7 @@
 import React from 'react';
 import { ContactForm } from './ContactForm';
 import ContactImage from '../../assets/contact-images and maps/contact-image1.jpg';
+import ContactMap from '../../assets/contact-images and maps/contact-image3.jpg';
 
 export default function Contact() {
   return (
@@ -27,9 +28,9 @@ the opening times, a contact form so anyone can book tables, the address,
         <p>Klastorpsvägen 4, 152 42 Södertälje </p>
       </div>
 
-      {/* <div>
+      <div>
         <img src={ContactMap} alt="restaurent owner" />
-      </div> */}
+      </div>
     </div>
   );
 }

@@ -1,7 +1,13 @@
 .contact-page {
-  margin-top: 60px;
-}
-
-.contact-owner {
+  box-sizing: border-box;
+  max-width: 800px;
   margin: 0 auto;
 }
+
+.contact-page img {
+  width: 100%;
+}
+
+/* .contact-owner {
+  margin: 0 auto;
+} */
