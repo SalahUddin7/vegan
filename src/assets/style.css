@@ -33,9 +33,17 @@ p {
   margin-top: 15px;
 }
 
+.btn {
+  margin-top: 20px;
+}
+
 .product-area-full {
   text-align: center;
   margin-top: 200px;
+}
+
+.product-area-full .Catagory-title {
+  font-size: 68px;
 }
 
 .product-area {

@@ -8,7 +8,7 @@ const Product = () => {
 
   return (
     <div className="product-area-full">
-      <h2>Dishes </h2>
+      <h2 className="Catagory-title">Dishes </h2>
       <p>
         Cocktails use fun, natural ingredients like maple, beets and watermelon
         to add color and flavor and are completely free of animal ingredients

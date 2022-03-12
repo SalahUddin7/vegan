@@ -8,7 +8,7 @@ const Drinksproduct = () => {
 
   return (
     <div className="product-area-full">
-      <h2>Drinks </h2>
+      <h2 className="Catagory-title">Drinks </h2>
       <p>
         Drinks use fun, natural ingredients like maple, beets and watermelon to
         add color and flavor and are completely free of animal ingredients like

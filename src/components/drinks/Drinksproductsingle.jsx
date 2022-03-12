@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 import allFoodItems from '../../data/allFoodItems.json';
 
@@ -46,6 +46,10 @@ const Drinksproductsingle = () => {
             contributes to a daily die. 2000 calories a day is used for general
             nutrition advice.
           </p>
+
+          <Link to={`/DrinksProduct/`}>
+            <button className="btn">Go Back </button>
+          </Link>
         </div>
       )}
     </div>
