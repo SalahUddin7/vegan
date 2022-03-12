@@ -14,9 +14,7 @@ const Product = () => {
         to add color and flavor and are completely free of animal ingredients
         like milk, eggs and honey that are sometimes found in cocktails
       </p>
-      <hr />
-      {/* <Link to="/Products/12">Product-XYZ</Link> */}
-      {/* map((element, indexes) =>  */}
+
       <div className="product-area">
         {filterDishes.map((mainproduct, index) => (
           <div key={index} className="product-single">

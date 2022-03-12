@@ -14,7 +14,6 @@ const Drinksproduct = () => {
         add color and flavor and are completely free of animal ingredients like
         milk, eggs and honey that are sometimes found in cocktails
       </p>
-      <hr />
 
       <div className="product-area">
         {filterDrinks.map((mainproduct, index) => (
