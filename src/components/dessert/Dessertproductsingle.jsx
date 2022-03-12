@@ -5,14 +5,11 @@ import allFoodItems from '../../data/allFoodItems.json';
 
 const Dessertproductsingle = () => {
   const Para = useParams();
-  console.log(Para.id);
+
   const [product, setProduct] = useState(null);
-  console.log(allFoodItems);
 
   useEffect(() => {
     const filtered = allFoodItems.filter((prod) => {
-      console.log(prod.id);
-      console.log(Para.id);
       return prod.id == Para.id;
     });
     console.log(filtered);
@@ -30,13 +27,13 @@ const Dessertproductsingle = () => {
           <p>
             <img src={product.imageURL} style={{ width: 'auto' }} alt="" />
           </p>
-          <h3>{product.title}</h3>
-          <h4>Ingredient:</h4>
+          <h1>{product.title}</h1>
+          <h4>List of Ingredients:</h4>
           {product.ingredients.map((ingred) => (
-            <span> {ingred},</span>
+            <p> {ingred},</p>
           ))}
 
-          {/* Nutrition */}
+          <h4>Nutrition Value</h4>
           {product.nutrition_facts.map((nutrition) => (
             <div className="NutritionFacts">
               <p>{nutrition.label}</p>
