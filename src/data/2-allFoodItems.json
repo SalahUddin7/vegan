@@ -8,11 +8,11 @@
       "description": "Egg noodles with fresh pineaple and peas.Cooked in the wok. ",
       "category": "dishes",
       "ingredients": [
-        ["pineapple", "pineapple"],
-        ["Tofu", "tofu"],
-        ["Wasabi", "spices"],
-        ["Rice noodles", "noodles"],
-        ["Miso", "spices"]
+        "pineapple",
+        "Tofu",
+        "Wasabi", "spices",
+        "Rice noodles", "noodles",
+        "Miso", "spices"
       ],
   
       "nutrition_facts": [
@@ -74,11 +74,11 @@
       "description": "A finger-licious stew made with 🤍 with greek tradition ",
       "category": "dishes",
       "ingredients": [
-        ["Olives", "olives"],
-        ["Zingy Lemon", "lemon"],
-        ["Fresh Tomatoes", "tomato"],
-        ["Potatoes", "potato"],
-        ["Peas", "other"]
+        "pineapple",
+        "Tofu",
+        "Wasabi", "spices",
+        "Rice noodles", "noodles",
+        "Miso", "spices"
       ],
   
       "nutrition_facts": [
@@ -140,11 +140,11 @@
       "description": "An oriental inspired tagine, with apricots, preserved lemons, topping a fine couscous. ",
       "category": "dishes",
       "ingredients": [
-        ["Saffron", "spices"],
-        ["Preserved Lemon", "lemon"],
-        ["Couscous", "noodles"],
-        ["Apricots", "apricot"],
-        ["Toasted Almonds", "nuts"]
+        "pineapple",
+        "Tofu",
+        "Wasabi", "spices",
+        "Rice noodles", "noodles",
+        "Miso", "spices"
       ],
   
       "nutrition_facts": [
@@ -206,12 +206,11 @@
       "description": "Roasted roots in mediterrannean styles. Served with fresh herbs.",
       "category": "dishes",
       "ingredients": [
-        ["Carrots", "carrot"],
-        ["Paprika", "zucchini"],
-        ["Apples", "apple"],
-        ["Rosemary", "spices"],
-        ["Thyme", "spices"],
-        ["Sage", "spices"]
+        "pineapple",
+        "Tofu",
+        "Wasabi", "spices",
+        "Rice noodles", "noodles",
+        "Miso", "spices"
       ],
   
       "nutrition_facts": [
@@ -273,12 +272,11 @@
       "description": "Sweet yet tart rhubarb sorbet with salty, crunchy brittle – flavours and textures that go mad in your mouth.",
       "category": "desserts",
       "ingredients": [
-        ["Rhubarb", "other"],
-        ["Pistachio", "other"],
-        ["Sugar", "sugar"],
-        ["Lime", "lemon"],
-        ["Vegetal oil", "alcohol"],
-        ["Matcha", "other"]
+        "pineapple",
+        "Tofu",
+        "Wasabi", "spices",
+        "Rice noodles", "noodles",
+        "Miso", "spices"
       ],
   
       "nutrition_facts": [
@@ -340,12 +338,11 @@
       "description": "With tofu and dairy-free chocolate, these are a tasty vegan twist on regular chocolate mousse. ",
       "category": "desserts",
       "ingredients": [
-        ["Vanilla", "vanilla"],
-        ["Hazelnuts", "nuts"],
-        ["Maple syrup", "syrup"],
-        ["Tofu", "tofu"],
-        ["Chilli", "spices"],
-        ["Sea salt", "salt"]
+        "pineapple",
+        "Tofu",
+        "Wasabi", "spices",
+        "Rice noodles", "noodles",
+        "Miso", "spices"
       ],
   
       "nutrition_facts": [
@@ -407,12 +404,11 @@
       "description": "Sticky-sweet and topped with lightly spiced apples, this makes the perfect afternoon tea treat!",
       "category": "desserts",
       "ingredients": [
-        ["Lemon", "lemon"],
-        ["Walnuts", "nuts"],
-        ["Maple syrup", "syrup"],
-        ["Wheat", "wheat"],
-        ["Apple", "apple"],
-        ["salt", "salt"]
+        "pineapple",
+        "Tofu",
+        "Wasabi", "spices",
+        "Rice noodles", "noodles",
+        "Miso", "spices"
       ],
   
       "nutrition_facts": [
@@ -474,12 +470,11 @@
       "description": "Mojito Fruit Salad is a refreshing, non-alcoholic fruit and berry salad that tastes just like a sweet mojito.",
       "category": "desserts",
       "ingredients": [
-        ["Brown sugar", "sugar"],
-        ["Pineapple", "pineapple"],
-        ["Watermelon", "watermelon"],
-        ["Lemon", "lemon"],
-        ["Rum", "alcohol"],
-        ["Mint", "mint"]
+        "pineapple",
+        "Tofu",
+        "Wasabi", "spices",
+        "Rice noodles", "noodles",
+        "Miso", "spices"
       ],
   
       "nutrition_facts": [
@@ -541,12 +536,11 @@
       "description": "This richly flavoured cocktail takes a while to come alive, so give it a good stir",
       "category": "drinks",
       "ingredients": [
-        ["Bacardi rum", "alcohol"],
-        ["Orange bitters", "orange"],
-        ["Sugar", "sugar"],
-        ["Apple juice", "apple"],
-        ["Orange twist", "orange"],
-        ["Lemon", "lemon"]
+        "pineapple",
+        "Tofu",
+        "Wasabi", "spices",
+        "Rice noodles", "noodles",
+        "Miso", "spices"
       ],
   
       "nutrition_facts": [
@@ -608,12 +602,11 @@
       "description": "Named at a time when a lot of booze went into this drink, our version is lighter with two kinds of rum rounded off by the tropical fruit flavours. ",
       "category": "drinks",
       "ingredients": [
-        ["Bacardi rum", "alcohol"],
-        ["Triple Sec", "alcohol"],
-        ["Orange juice", "orange"],
-        ["Cherries", "cherry"],
-        ["Orange twist", "orange"],
-        ["Lemon", "lemon"]
+        "pineapple",
+        "Tofu",
+        "Wasabi", "spices",
+        "Rice noodles", "noodles",
+        "Miso", "spices"
       ],
   
       "nutrition_facts": [
@@ -675,12 +668,11 @@
       "description": "Mai Tai is Tahitian for “good”, but we think this tropical cocktail is better than that – it’s South Pacific sunshine in a glass! Get your grass skirts on.",
       "category": "drinks",
       "ingredients": [
-        ["Bacardi rum", "alcohol"],
-        ["Cointreau", "alcohol"],
-        ["Orgeat syrup", "syrup"],
-        ["Fresh mint", "mint"],
-        ["Orange juice", "orange"],
-        ["Lemon", "lemon"]
+        "pineapple",
+        "Tofu",
+        "Wasabi", "spices",
+        "Rice noodles", "noodles",
+        "Miso", "spices"
       ],
   
       "nutrition_facts": [
@@ -742,12 +734,11 @@
       "description": "The national drink of Cuba celebrating its independence. There’s more to it than just cola, rum and lime.",
       "category": "drinks",
       "ingredients": [
-        ["Rum", "alcohol"],
-        ["Cointreau", "alcohol"],
-        ["Cola", "cocktail"],
-        ["Ice cubes", "other"],
-        ["Limes", "lemon"],
-        ["Lemon", "lemon"]
+        "pineapple",
+        "Tofu",
+        "Wasabi", "spices",
+        "Rice noodles", "noodles",
+        "Miso", "spices"
       ],
   
       "nutrition_facts": [

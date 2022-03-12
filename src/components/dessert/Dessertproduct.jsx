@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { getProductDataDessert } from '../../data/product-data-dessert';
+import allFoodItems from '../../data/2-allFoodItems.json';
 
 const Dessertproduct = () => {
-  const [products, setProducts] = useState(getProductDataDessert);
+  const filterDessert = allFoodItems.filter((product) => {
+    return product.category === 'desserts';
+  });
 
   return (
     <div className="product-area-full">
@@ -17,7 +18,7 @@ const Dessertproduct = () => {
       {/* <Link to="/Products/12">Product-XYZ</Link> */}
       {/* map((element, indexes) =>  */}
       <div className="product-area">
-        {products.map((mainproduct, index) => (
+        {filterDessert.map((mainproduct, index) => (
           <div key={index} className="product-single">
             <p>
               <img

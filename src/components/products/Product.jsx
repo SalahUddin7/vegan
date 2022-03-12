@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { getProductData } from '../../data/product-data';
+import allFoodItems from '../../data/2-allFoodItems.json';
 
 const Product = () => {
-  const [products, setProducts] = useState(getProductData);
+  const [products, setProducts] = useState(allFoodItems);
 
   return (
     <div className="product-area-full">
