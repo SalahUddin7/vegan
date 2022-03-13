@@ -19,23 +19,28 @@
   place-items: center;
 }
 
-.hero-text {
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: grid;
-  place-items: center;
-}
-
 .hero-Section-Text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   color: white;
-  font-size: 30px;
+  font-size: 24px;
   background: rgba(0, 0, 0, 0.2);
-  padding: 50px;
+  text-align: center;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  .hero-Section-Text {
+    font-size: 32px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .hero-Section-Text {
+    font-size: 44px;
+  }
 }

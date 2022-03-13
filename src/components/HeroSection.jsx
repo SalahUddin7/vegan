@@ -8,9 +8,8 @@ export default function HeroSection() {
         <img src={HeroImage} alt=" a Broccoli" />
         <div className="hero-Section-Text">
           {' '}
-          <h1> Veganaaan Stockholm</h1>
+          <h1> Veganaaan</h1>
           <p>Best vegan restaurent in the town.</p>
-          <p>* * * * * * * * * * * * * * </p>
         </div>
       </section>
     </div>
