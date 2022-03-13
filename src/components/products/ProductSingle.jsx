@@ -25,7 +25,7 @@ const ProductSingle = () => {
       {product !== null && (
         <div>
           <p>
-            <img src={product.imageURL} style={{ width: 'auto' }} alt="" />
+            <img src={product.imageURL} style={{ width: '200' }} alt="" />
           </p>
           <h1 className="titleSingleItems">{product.title}</h1>
 

@@ -20,7 +20,7 @@ export const ContactForm = () => {
         </div>
 
         <div className="form-line">
-          <label for="subject">Message.</label>
+          <label for="subject">Message</label>
         </div>
         <div className="form-line">
           <textarea
