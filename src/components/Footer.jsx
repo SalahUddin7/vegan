@@ -2,6 +2,7 @@ import Github from '../assets/Footer-images/Github.png';
 import LinkedIn from '../assets/Footer-images/Linkedin.jpg';
 
 export default function Footer() {
+  //Local State
   const yearNow = new Date().getFullYear();
   return (
     <footer className="footer">

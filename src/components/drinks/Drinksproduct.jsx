@@ -1,7 +1,9 @@
+//NPM Packages
 import { Link } from 'react-router-dom';
 import allFoodItems from '../../data/allFoodItems.json';
 
 const Drinksproduct = () => {
+  //Local State
   const filterDrinks = allFoodItems.filter((product) => {
     return product.category === 'drinks';
   });

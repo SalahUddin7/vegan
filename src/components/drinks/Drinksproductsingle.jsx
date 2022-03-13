@@ -1,9 +1,11 @@
+//NPM Packages
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
 import allFoodItems from '../../data/allFoodItems.json';
 
 const Drinksproductsingle = () => {
+  //Local State
   const Para = useParams();
 
   const [product, setProduct] = useState(null);

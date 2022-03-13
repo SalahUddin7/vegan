@@ -1,4 +1,4 @@
-import React from 'react';
+//NPM Packgages
 import { ContactForm } from './ContactForm';
 import ContactImage from '../../assets/contact-images and maps/contact-image1.jpg';
 import ContactMap from '../../assets/contact-images and maps/contact-image3.jpg';
@@ -6,19 +6,13 @@ import ContactMap from '../../assets/contact-images and maps/contact-image3.jpg'
 export default function Contact() {
   return (
     <div className="contact-page">
-      {/* Contact page
-The contact page showcase a high quality picture of the owner, 
-the opening times, a contact form so anyone can book tables, the address,
- and a map embedded inside the page.
- */}
-
       <div className="contact-owner">
         <img src={ContactImage} alt="restaurent owner" />
       </div>
       <div>
         <h1>Opening Hours</h1>
-        <p>Monday-Friday: 8:30–21:00 </p>
-        <p>Saturday-Sunday: 14.00–21:00 </p>
+        <p>Monday-Friday: 8:30–21:00. </p>
+        <p>Saturday-Sunday: 14.00–21:00. </p>
       </div>
 
       <ContactForm />

@@ -1,4 +1,3 @@
-import React from 'react';
 import HeroImage from '../assets/veganhero2.jpg';
 
 export default function HeroSection() {
