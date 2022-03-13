@@ -19,7 +19,7 @@ export default function Contact() {
 
       <div>
         <h1>Address:</h1>
-        <p>Klastorpsvägen 4, 152 42 Södertälje </p>
+        <p>Klastorpsvägen 4, 152 42 Södertälje. </p>
       </div>
 
       <div>
