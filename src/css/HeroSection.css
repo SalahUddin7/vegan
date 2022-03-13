@@ -1,5 +1,6 @@
 .hero-section {
   margin: 0 auto;
+  position: relative;
 }
 
 .hero-section img {
@@ -25,4 +26,16 @@
   background-size: cover;
   display: grid;
   place-items: center;
+}
+
+.hero-Section-Text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 50px;
 }

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import HeroSection from './HeroSection';
 import DishCatagory from '../assets/Homepage-Images/DishCatagory.jpg';
@@ -11,7 +10,6 @@ const Home = () => {
       <HeroSection />
 
       <div className="HomePage">
-        {/* CONTAINER A: MAIN DISH */}
         <section className="flex-containerA">
           <div className="flex-item-left">
             <img src={DishCatagory} alt="" />
@@ -20,7 +18,6 @@ const Home = () => {
             <div>Best Vegan dishesh in Stockhom cooked in homemade style.</div>
 
             <div>
-              {' '}
               <button className="btn">
                 <Link to="/products">View Main Dish Product. </Link>
               </button>
@@ -28,7 +25,6 @@ const Home = () => {
           </div>
         </section>
 
-        {/* CONTAINER B: MAIN DESSERTS */}
         <section className="flex-containerA">
           <div className="flex-item-right main-page--section-text">
             Dessert once you eat -you will remember rest of your life
@@ -41,7 +37,6 @@ const Home = () => {
           </div>
         </section>
 
-        {/* CONTAINER C: MAIN DRINKS */}
         <section className="flex-containerA">
           <div className="flex-item-left">
             <img src={DrinksCatagory} alt="" />
