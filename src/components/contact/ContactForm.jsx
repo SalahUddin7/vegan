@@ -9,7 +9,7 @@ export const ContactForm = () => {
           <label htmlFor="fname">First Name</label>
         </div>
         <div className="form-line">
-          <input type="text" placeholder="Your name.." />
+          <input type="text" placeholder="Your First name.." />
         </div>
 
         <div className="form-line">

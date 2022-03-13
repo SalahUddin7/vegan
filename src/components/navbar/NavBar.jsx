@@ -1,5 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
+import MainLogo from '../../assets/navlogo.jpg';
 
 export default function NavBar() {
   return (
@@ -14,7 +14,11 @@ export default function NavBar() {
 
         <li>
           <Link to="/">
-            <img className="logo-img" src="navlogo.jpg" />
+            <img
+              className="logo-img"
+              src={MainLogo}
+              alt="This is the Logo of this page which is Brocolli"
+            />
           </Link>
         </li>
         <li>
