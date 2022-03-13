@@ -80,6 +80,10 @@ p {
   margin: 50px 50px;
 }
 
+.individual-item-display img {
+  max-width: 250px;
+}
+
 .titleSingleItems {
   color: rgb(255, 255, 255);
   background: rgb(0, 0, 0);
@@ -89,6 +93,10 @@ p {
 }
 
 .SingleItemsIngredients {
-  color: rgb(136, 130, 130);
+  background-color: rgb(195, 187, 187);
+  max-width: 200px;
+  border-radius: 25px;
+  margin: 0 auto;
   margin-top: 20px;
+  padding: 4px 20px;
 }
