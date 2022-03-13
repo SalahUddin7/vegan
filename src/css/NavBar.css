@@ -19,13 +19,29 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  padding: 15px;
+  padding: 10px;
 }
 
 nav ul li a {
   text-decoration: none;
-  /* font-size: var(--font-size-heading); */
+
   color: white;
   font-weight: bolder;
   scroll-behavior: smooth;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  nav ul li {
+    padding: 16px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  nav ul li {
+    font-size: 25px;
+    margin: 5px 35px;
+  }
 }
