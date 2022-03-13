@@ -79,3 +79,16 @@ p {
   text-align: center;
   margin: 50px 50px;
 }
+
+.titleSingleItems {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 4px 20px;
+}
+
+.SingleItemsIngredients {
+  color: rgb(136, 130, 130);
+  margin-top: 20px;
+}

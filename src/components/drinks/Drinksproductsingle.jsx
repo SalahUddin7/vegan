@@ -27,13 +27,13 @@ const Drinksproductsingle = () => {
           <p>
             <img src={product.imageURL} style={{ width: 'auto' }} alt="" />
           </p>
-          <h1>{product.title}</h1>
-          <h4>List of Ingredients:</h4>
+          <h1 className="titleSingleItems">{product.title}</h1>
+          <h4 className="SingleItemsIngredients">List of Ingredients:</h4>
           {product.ingredients.map((ingred) => (
-            <p> {ingred},</p>
+            <span> {ingred},</span>
           ))}
 
-          <h4>Nutrition Value</h4>
+          <h4 className="SingleItemsIngredients">Nutrition Value</h4>
           {product.nutrition_facts.map((nutrition) => (
             <div className="NutritionFacts">
               <p>{nutrition.label}</p>
