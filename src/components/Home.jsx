@@ -1,10 +1,12 @@
 //NPM Packgages
-import { Link } from 'react-router-dom';
-import HeroSection from './HeroSection';
-import DishCatagory from '../assets/Homepage-Images/DishCatagory.jpg';
-import DessertCatagory from '../assets/Homepage-Images/DessertCatagory.jpg';
-import DrinksCatagory from '../assets/Homepage-Images/DrinksCatagory.jpg';
+import { Link } from "react-router-dom";
+import HeroSection from "./HeroSection";
+import DishCatagory from "../assets/Homepage-Images/DishCatagory.jpg";
+import DessertCatagory from "../assets/Homepage-Images/DessertCatagory.jpg";
+import DrinksCatagory from "../assets/Homepage-Images/DrinksCatagory.jpg";
 
+// The component is too long
+// DRY, the sections should be components
 const Home = () => {
   return (
     <div>

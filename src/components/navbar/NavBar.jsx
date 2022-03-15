@@ -1,6 +1,8 @@
-import { Link } from 'react-router-dom';
-import MainLogo from '../../assets/navlogo.jpg';
+import { Link } from "react-router-dom";
+import MainLogo from "../../assets/navlogo.jpg";
 
+// Nesting -1
+// Although the component is not over 50 lines of code, this clearly can be optimized to look flatter (less nesting indentations and less lines of code)
 export default function NavBar() {
   return (
     <nav>

@@ -1,10 +1,11 @@
 //NPM Packages
-import React, { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { useParams, Link } from "react-router-dom";
 
-import allFoodItems from '../../data/allFoodItems.json';
+import allFoodItems from "../../data/allFoodItems.json";
 
-//Local State
+//Local State <= this is not local state, local state is data, this is a component/
+// Please use functions for components instead of constants to avoid this kind of confusion
 const ProductSingle = () => {
   const Para = useParams();
 

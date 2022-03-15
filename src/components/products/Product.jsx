@@ -1,11 +1,11 @@
 //NPM Packages
-import { Link } from 'react-router-dom';
-import allFoodItems from '../../data/allFoodItems.json';
+import { Link } from "react-router-dom";
+import allFoodItems from "../../data/allFoodItems.json";
 
 const Product = () => {
   //Local State
   const filterDishes = allFoodItems.filter((product) => {
-    return product.category === 'dishes';
+    return product.category === "dishes";
   });
 
   return (
@@ -23,7 +23,7 @@ const Product = () => {
             <p>
               <img
                 src={mainproduct.imageURL}
-                style={{ width: 'auto', height: 100 }}
+                style={{ width: "auto", height: 100 }}
                 alt=""
               />
             </p>

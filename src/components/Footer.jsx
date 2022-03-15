@@ -1,12 +1,14 @@
-import Github from '../assets/Footer-images/Github.png';
-import LinkedIn from '../assets/Footer-images/Linkedin.jpg';
+import Github from "../assets/Footer-images/Github.png";
+import LinkedIn from "../assets/Footer-images/Linkedin.jpg";
 
+// nesting, i see no effor to try to refactor the code here -1
 export default function Footer() {
   //Local State
   const yearNow = new Date().getFullYear();
   return (
     <footer className="footer">
       <ul>
+        {/* this is a component */}
         <li>
           <a
             target="_blank"
@@ -16,6 +18,7 @@ export default function Footer() {
             <img src={LinkedIn} alt="LinkedIn icon" />
           </a>
         </li>
+        {/* and this is other item based on the same component */}
         <li>
           <a
             target="_blank"
